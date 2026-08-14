@@ -2,7 +2,6 @@
   "extends": "./tsconfig.app.json",
   "exclude": [],
   "compilerOptions": {
-    "ignoreDeprecations": "6.0",
     "composite": true,
     "lib": ["ESNext", "DOM"],
     "types": ["node", "jsdom"]

@@ -16,6 +16,12 @@ import { defineConfig } from 'vitest/config'
  */
 export default defineConfig({
   test: {
+    // Sets process.env before the run so Vite injects it into import.meta.env
+    // for both projects — the readonly-typed import.meta.env (see
+    // src/vite-env.d.ts) can't be assigned to directly at runtime.
+    env: {
+      VITE_API_BASE_URL: 'http://localhost:8000/api',
+    },
     projects: [
       {
         extends: './vite.config.ts',
