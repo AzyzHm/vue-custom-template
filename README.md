@@ -106,7 +106,7 @@ views  →  components  →  composables  →  api  →  types
 
 ### Prerequisites
 
-- Node.js `>= 20.19`
+- Node.js `>= 22.12`
 - npm `>= 10`
 
 ### Installation
