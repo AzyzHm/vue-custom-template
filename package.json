@@ -24,9 +24,9 @@
   },
   "dependencies": {
     "axios": "^1.7.9",
-    "pinia": "^2.3.0",
+    "pinia": "^4.0.2",
     "vue": "^3.5.13",
-    "vue-router": "^4.5.0"
+    "vue-router": "^5.2.0"
   },
   "devDependencies": {
     "@playwright/test": "^1.49.1",
@@ -36,7 +36,7 @@
     "@tsconfig/node22": "^22.0.0",
     "@types/jsdom": "^30.0.0",
     "@types/node": "^22.10.2",
-    "@vitejs/plugin-vue": "^5.2.1",
+    "@vitejs/plugin-vue": "^6.0.8",
     "@vitest/coverage-v8": "^4.1.10",
     "@vitest/eslint-plugin": "^1.6.23",
     "@vue/eslint-config-prettier": "^10.1.0",
