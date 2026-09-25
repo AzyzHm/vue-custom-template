@@ -35,7 +35,7 @@
     "@testing-library/vue": "^8.1.0",
     "@tsconfig/node22": "^22.0.6",
     "@types/jsdom": "^30.0.0",
-    "@types/node": "^26.5.1",
+    "@types/node": "^26.6.2",
     "@vitejs/plugin-vue": "^6.0.9",
     "@vitest/coverage-v8": "^5.0.0",
     "@vitest/eslint-plugin": "^1.6.23",
